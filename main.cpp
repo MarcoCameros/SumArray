@@ -10,6 +10,8 @@
     #define omp_get_thread_num() 0
 #endif
 
+
+
 #define N 1000
 #define chunk 100
 #define mostrar 10
@@ -18,6 +20,9 @@ void imprimeArreglo(float *d);
 
 int main()
 {
+    # ifdef _OPENMP
+        std::cout << "OMP disponible y funcionando" << std::endl;
+    # endif
 
     std::cout << "Sumando Arreglos en Paralelo!\n";
     float a[N], b[N], c[N];
