@@ -1,0 +1,21 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/Users/mcameros/CLionProjects/SumArrays/cmake-build-debug",
+	"dir-cur-src" : "/Users/mcameros/CLionProjects/SumArrays",
+	"dir-top-bld" : "/Users/mcameros/CLionProjects/SumArrays/cmake-build-debug",
+	"dir-top-src" : "/Users/mcameros/CLionProjects/SumArrays",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/opt/homebrew/opt/libomp/include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/Users/mcameros/CLionProjects/SumArrays/cmake-build-debug/CMakeFiles/SumArrays.dir"
+}
